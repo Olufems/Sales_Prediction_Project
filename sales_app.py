@@ -5,8 +5,7 @@ import pandas as pd
 # Load the pre-trained model
 @st.cache_data()
 def load_model():
-    model = joblib.load('rf_regressor.joblib')
-    return model
+    return joblib.load('rf_regressor.joblib')
 
 model = load_model()
 
