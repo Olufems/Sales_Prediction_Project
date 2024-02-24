@@ -3,7 +3,7 @@ import joblib
 import pandas as pd
 
 # Load the pre-trained model
-@st.cache_data()
+@st.cache
 def load_model():
     return joblib.load('rf_regressor.joblib')
 
