@@ -1,6 +1,3 @@
-To achieve this, you can replace the sliders with text input fields where users can manually input the values for TV advertising, radio advertising, and newspaper advertising. Then, add a "Submit" button that users can click to trigger the prediction. Here's the modified code:
-
-```python
 import streamlit as st
 import joblib
 import pandas as pd
